@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Raleway:wght@400;500;700&display=swap');
+
+body {
+    margin: 0 auto;
+    width: 1300px;
+}
+
+header {
+    padding: 20px 100px;
+}
+
+h1 {
+    color: #96746b;
+    font-family: 'Oswald', sans-serif;
+    display: inline;
+}
+
+#header-list {
+    list-style-type: none;
+    float: right;
+}
+
+#header-list li {
+    display: inline;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+#navigation {
+
+    background: url('images/banner-bg_720.jpg') no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 80px;
+}
+
+#navigation #uniquely {
+    font-size: 65px;
+    font-family: 'Oswald', sans-serif;
+    color:  #96746b;
+    font-weight: bold;
+    margin: 0;
+}
+
+#navigation span {
+    font-family: 'Oswald', sans-serif;
+    color:#c7a17a;
+}
+
+#navigation #try {
+    color: white;
+}
+
+#navigation #learn-more {
+    background-color: #312a26;
+    border: none;
+}
+
+#navigation #learn {
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.article-1 {
+    margin: 30px 50px;
+}
+
+.table-1 {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 30px;
+
+}
+
+#seasonal-coffee {
+    background: url('images/ads-img1_720.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    padding: 20px;
+    width: 500px;
+}
+
+#seasonal {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    text-shadow: 2px 2px 10px black;
+    font-weight: bold;
+    padding-left: 30px;
+    width: 500px;
+}
+
+.read-more {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    padding-left: 30px;
+
+}
+
+#coffee-bundle {
+    background: url('images/ads-img2_720.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    padding: 20px 50px;
+    width: 500px;
+}
+
+#coffee {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    text-shadow: 2px 2px 10px black;
+    font-weight: bold;
+}
+
+h2 {
+    color: #c7a17a;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+}
+
+section {
+    text-align: center;
+
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    border-bottom: #c7a17a solid;
+    display: inline;
+    margin-bottom: 50px;
+}
+
+#article-2 {
+    margin: 30px 40px;
+}
+
+#table-2 {
+    
+    border-collapse: separate;
+    border-spacing: 10px;
+    padding: 30px 50px;
+}
+
+#table-2 img {
+    width: 270px;
+    height: 330px;
+}
+
+.table-2-p1 {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+.table-2-p2 {
+    margin: 0;
+}
+
+.table-2-p3 {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+}
+
+#article-3 {
+    background: url('images/discount-img_720.jpg') no-repeat;
+    height: 30px;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 80px;
+    background-position: center;
+}
+
+#article-3-p1 {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    color: white;
+    margin: 0;
+}
+
+#article-3-p2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 35px;
+    text-shadow: 2px 2px 10px black;
+    margin: 0;
+}
+
+#view-products {
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    opacity: 50%;
+    margin: 10px;
+}
+
+#view-products-p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+    color: #19100F;
+    margin: 7px 6px;
+}
+
+#article-4 {
+    margin: 30px 50px;
+}
+
+#table-4 img {
+    width: 300px;
+    height: 330px;
+}
+
+#table-4 {
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+
+
+#coffee-bean-varieties {
+    background: url('images/ads-img3_720.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    padding-left: 50px;
+}
+
+.article-4-p {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    text-shadow: 2px 2px 10px black;
+    font-weight: bold;
+}
+
+#our-baristas-favorite {
+    background: url('images/ads-img4_720.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    padding-left: 50px;
+}
+
+#coffee-best {
+    background: url('images/ads-img5_720.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    padding-left: 50px;
+}
+
+#morethan {
+    background: url('images/ads-img6_720.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    padding-left: 50px;
+}
+
+.reservation-form-td {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+#reservation-form {
+    text-align: center;
+}
+
+.reservation-time {
+    text-align: center;
+}
+
+
+#table-5 {
+    border-collapse: separate;
+    border-spacing: 10px;
+    width: 100%;
+    
+}
+
+.table-5-1 {
+    background-color: rgb(247, 246, 246);
+    height: 200px;
+    border-spacing: auto;
+    width: 100%;
+    padding: 20px;
+    height: 500px;
+}
+
+.table-5-1 img {
+    width: 150px;
+}
+
+#footer-img_720 {
+    background: url('images/footer-img_720.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    padding-left: 50px;
+}
+
+#table-6 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: light;
+    border-spacing: 50px;
+    height: 250px;
+}
+
+.openinghours {
+    font-family: 'Raleway', sans-serif;
+}
+
+#footer-img_720  #table-6 #footer-thead {
+    margin: 0;
+}
+
+.footer-span {
+    font-weight: bold;
+    color: white;
+    display: inline;
+}
+
+input , textarea {
+    width: 100%;
+    border: none;
+    padding: 10px;
+}
+
+#footer-img_720 span {
+    color:#c7a17a;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+footer {
+    background-color: #291c14;
+    padding-top: 2px; 
+    padding-bottom: 2px;
+}
+
+#coffee-bean-ul li {
+    display: inline;
+    margin: 150px;
+}
+
+#coffee-bean {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+footer img {
+    height: 20px;
+}
+
+#kredo {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    list-style-type: none;
+    font-size: 10px;
+    font-weight: 100px;
+}

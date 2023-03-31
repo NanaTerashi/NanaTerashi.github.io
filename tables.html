@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <title>
+            HTML Tables
+        </title>
+
+        <link rel="stylesheet" href="assets/styles.css">
+    </head>
+
+
+    <body>
+        <table border="1">
+            <thead>
+                <th colspan="2">Enter your information</th>
+            </thead>
+
+            <tbody>
+                <form action="process.html" method="post">
+                <tr>
+                    <td>
+                        <label for="full_name">
+                            Full name
+                        </label>
+                        <input type="text" name="full_name">
+                    </td>
+
+                    <td>
+                        <label for="password">
+                            Password
+                        </label>
+                        <input type="password" name="passwprd">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="age">
+                            Age
+                        </label>
+                        <input type="number" name="age">
+                    </td>
+                    <td>
+                        <label for="bday">
+                            Birth Day
+                        </label>
+                        <input type="date" name="bday">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">
+                        Email Adress
+                    </label>
+                    <input type="email" name="email">
+                </td>
+                    <td>
+                        <label for="comment">
+                            Tell us your Feedback
+                        </label>
+                        <textarea name="comment" rows="5"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>Tell us where did you find us</p>
+                        <input type="radio" name="source" id="facebook" value="facebook">
+                        <label for="facebook">
+                            Facebook
+                        </label>
+                        <input type="radio" name="source" id="instagram" value="instagram">
+                        <label for="instagram">
+                            Instagram
+                        </label>
+                        <input type="radio" name="source" id="flyers" value="flyers">
+                        <label for="flyers">
+                            Flyers
+                        </label>
+                    </td>
+                </tr>
+                </form>
+            </tbody>
+
+        </table>
+
+        <br>
+
+        <table id="users">
+            <thead>
+                <th>Name</th>
+                <th>Age</th>
+                <th colspan="2">Email & Phone Numbers</th>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Ero</td>
+                    <td>28</td>
+                    <td></td>
+                    <td rowspan="4">+639089893982</td>
+                </tr>
+
+                <tr>
+                    <td>Katsue</td>
+                    <td>36</td>
+                    <td>katsue@email.com</td>
+                </tr>
+
+                <tr>
+                    <td>Nana</td>
+                    <td></td>
+                    <td>nana@email.com</td>
+                </tr>
+
+                <tr>
+                    <td>Chika</td>
+                    <td>27</td>
+                    <td>chika@email.com</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </body>
+</html>

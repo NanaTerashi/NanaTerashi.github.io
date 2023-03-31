@@ -1,0 +1,118 @@
+<html>
+    <head>
+        <title>
+            HTML Forms
+        </title>
+    </head>
+
+    <body>
+        <form action="process.html" method="post">
+            <label for="full_name">
+                Full name
+            </label>
+            <input type="text" name="full_name" required placeholder="Enter your first name and last name">
+
+            <hr>
+
+            <label for="password">
+                Password
+            </label>
+            <input type="password" name="passwprd" required placeholder="Please enter a secured password">
+            
+            <hr>
+
+            <label for="age">
+                Age
+            </label>
+            <input type="number" name="age" min="18" max="60" required>
+
+            <hr>
+
+            <label for="bday">
+                Birth Day
+            </label>
+            <input type="date" name="bday" required>
+
+            <hr>
+
+            <label for="email">
+                Email Adress
+            </label>
+            <input type="email" name="email" required>
+            
+            <hr>
+
+            <label for="comment">
+                Tell us your Feedback
+            </label>
+            <textarea name="comment" rows="5" required></textarea>
+            
+            <hr>
+
+            <p>Tell us where did you find us</p>
+            <input type="radio" name="source" id="facebook" value="facebook" required>
+            <label for="facebook">
+                Facebook
+            </label>
+            <input type="radio" name="source" id="instagram" value="instagram" required>
+            <label for="instagram">
+                Instagram
+            </label>
+            <input type="radio" name="source" id="flyers" value="flyers" required>
+            <label for="flyers">
+                Flyers
+            </label>
+
+            <hr>
+
+            <p>Please select your favorite food:</p>
+            <input type="checkbox" name="food" id="ramen" value="ramen" required>
+            <label for="ramen">
+                Ramen
+            </label>
+
+            <input type="checkbox" name="food" id="sushi" value="sushi" required>
+            <label for="sushi">
+                Sushi
+            </label> 
+
+            <input type="checkbox" name="food" id="curry" value="curry" required>
+            <label for="curry">
+                Curry
+            </label> 
+
+            <hr>
+
+            <p>What is your device?</p>
+            <select name="device" required>
+                <option value="macbook">Macbook</option>
+                <option value="iphone">iphone</option>
+                <option value="ipad" selected>ipad</option>
+                <option value="windows">Windows Computer</option>
+            </select>
+
+            <hr>
+            
+            <p>Select a Car:</p>
+            <select name="car" multiple required>
+                <option value="toyota">Toyota</option>
+                <option value="nissan">Nissan</option>
+                <option value="honda">Honda</option>
+            </select>
+
+            <hr>
+
+            <label for="profile_picture">
+                Please upload your profile picture
+            </label>
+            <input type="file" name="profile_picture" id="profile_picture" required>
+
+            <hr>
+
+            <!-- <input type="submit" name="submit" value="Create your free account"> -->
+            <button type="submit">
+                <h3>Create your free account</h3>
+            </button>
+        </form>
+    </body>
+</html>
