@@ -270,22 +270,22 @@
                                                     Phone Number
                                                 </label>
                                                 <br>
-                                                <input type="text" name="phone number" required placeholder="(+63)912345678)">
+                                                <input type="text" name="phone number" required placeholder="(+63)912345678">
                                             </td>
                                         </tr>
 
                                         <tr>
                                             <td class="reservation-form-td">
-                                                <label id="reservation-form for="reservation details">
+                                                <p id="reservation-form" for="reservation details">
                                                     Reservation Details
-                                                </label>
+                                                </p>
                                             </td>
                                         </tr>
 
                                         <tr>
                                             <td class="reservation-form-td">
                                                 <label for="number guest">
-                                                    Number Guest
+                                                    Number  of Guest
                                                 </label>
                                                 <br>
                                                 <input type="number" name="number guest" min="1" required placeholder="1">
@@ -298,25 +298,27 @@
                                                     Reservation Date
                                                 </label>
                                                 <br>
-                                                <input type="date" name="reservation date" required placeholder="mm/dd/yy">
+                                                <input type="date" name="reservation date" required placeholder="mm/dd/yyyy">
                                             </td>
                                         </tr>     
 
                                         <tr>
                                             <td class="reservation-form-td">
-                                                <p class="reservation-time">Reservation Time</p>
-                                                <input type="radio" name="source"  class="reservation-time" id="morning" value="morning" required>
-                                                <label  class="reservation-time" for="morning">
-                                                    Morning
-                                                </label>
-                                                <input type="radio" name="source"  class="reservation-time" id="afternoon" value="afternoon" required>
-                                                <label  class="reservation-time" for="afternoon">
-                                                    Afternoon
-                                                </label>
-                                                <input type="radio" name="source"  class="reservation-time" id="night" value="night" required>
-                                                <label  class="reservation-time" for="night">
-                                                    Night
-                                                </label>
+                                                <div id="reservation-time-div">
+                                                    <p>Reservation Time</p>
+                                                    <input type="radio" name="source"  class="reservation-time" id="morning" value="morning" required>
+                                                    <label for="morning">
+                                                        Morning
+                                                    </label>
+                                                    <input type="radio" name="source"  class="reservation-time" id="afternoon" value="afternoon" required>
+                                                    <label for="afternoon">
+                                                        Afternoon
+                                                    </label>
+                                                    <input type="radio" name="source"  class="reservation-time" id="night" value="night" required>
+                                                    <label for="night">
+                                                        Night
+                                                    </label>
+                                                </div>
                                             </td>
                                         </tr>     
                                     </tbody>
@@ -336,10 +338,12 @@
                                         </td>
                                     </tr>   
                                     <tr>
-                                        <td class="reservation-form-td" id="reservation-form-td2">
-                                            <p>PAYMENT</p>
-                                            <img src="assets/images/reservation-cards.png" alt="This is a piucure of reservation-cards.png.">
-                                            <p>Payment Accepted Cards
+                                        <td>
+                                            <div id="reservation-form-td2">
+                                                <p>PAYMENT</p>
+                                                <img src="assets/images/reservation-cards.png" alt="This is a piucure of reservation-cards.png.">
+                                            </div>
+                                            <p id="reservation-form-p">Payment Accepted Cards
                                             </p>
                                         </td>
                                     </tr>   
@@ -363,16 +367,18 @@
                                     </tr>
                                     <tr>
                                         <td class="reservation-form-td">
-                                            <input type="checkbox" name="checkbox" id="checkbox" value="checkbox" required>
-                                            <label for="checkbox">
-                                                I agree in the terms and conditions.
-                                            </label>
+                                            <div id="reservation-form-div">
+                                                <input id="agree-checkbox" type="checkbox" name="checkbox" value="checkbox" required>
+                                                <label for="checkbox">
+                                                    I agree in the terms and conditions.
+                                                </label>
+                                            </div>
                                         </td>
                                     </tr>
 
                                     <tr>
                                         <td class="reservation-form-td">
-                                            <button type="submit">
+                                            <button  id="reservation-form-button" type="submit">
                                                 <h4>SEND</h4>
                                             </button>
                                         </td>
@@ -455,8 +461,8 @@
                                 <form action="process.html" method="post">
                                 <p>THE LAST STANDARD POST</p>
                                 <input type="search" name="search" id="search">
-                                <button type="submit">
-                                    <h3>SEARCH</h3>
+                                <button id="search-button" type="submit">
+                                    <p>SEARCH</p>
                                 </button>
                                 </form>
                             </td>
